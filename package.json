@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "test": "mocha"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,12 @@
   },
   "homepage": "https://github.com/shashank7200/learning-tdd#readme",
   "dependencies": {
+    "eslint": "^4.8.0",
     "mocha": "^3.5.3"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-import": "^2.7.0"
   }
 }
