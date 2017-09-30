@@ -20,3 +20,7 @@ C.getChange = function (totalPayable, cashPaid) {
 };
 
 module.exports = C;
+
+const add = (a, b) => console.log(a + b);
+
+add.bind(this, 23, 12);
